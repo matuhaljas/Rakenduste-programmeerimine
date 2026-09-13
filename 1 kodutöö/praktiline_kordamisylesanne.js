@@ -82,7 +82,7 @@ users.forEach((user) => {
 console.log("");
 
 //3.12
-//massiivi koopia sortedByAge on users aga sorteeritud 
+//massiivi koopia sortedByAge on users aga sorteeritud (annab a ja b aka jarjest objekte ja siis vaatab kas a on väiksem või suurem kui b (aka lahutab ja kui tuleb neg arv siis lisab jarjekorda))
 const sortedByAge = [...users].sort((a, b) => a.age - b.age);
 sortedByAge.forEach((user) => {
     console.log(`${user.name}: ${user.age}`);
