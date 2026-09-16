@@ -1,3 +1,4 @@
+//Commend made to commit correctly according to guidelines
 const NAME = "Mari";
 
 function n () {
