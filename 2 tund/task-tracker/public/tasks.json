@@ -1,0 +1,5 @@
+[
+  { "id": 1, "text": "Finish the project brief", "completed": true },
+  { "id": 2, "text": "Review the task list", "completed": false },
+  { "id": 3, "text": "Prepare for the next meeting", "completed": false }
+]

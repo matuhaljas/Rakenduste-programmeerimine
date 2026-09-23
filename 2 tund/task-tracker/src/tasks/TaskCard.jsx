@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 export default function TaskCard({ task, onToggle, onDelete }) {
   return (
     <li>
@@ -9,6 +11,7 @@ export default function TaskCard({ task, onToggle, onDelete }) {
       <span style={{ textDecoration: task.completed ? 'line-through' : 'none' }}>
         {task.text}
       </span>
+      <Link to={`/tasks/${task.id}`}>View</Link>
       <button onClick={() => onDelete(task.id)}>Delete</button>
     </li>
   );
