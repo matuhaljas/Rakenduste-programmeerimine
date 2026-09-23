@@ -1,0 +1,14 @@
+git status — shows the working tree state:
+git add — stages changes for the next commit
+git commit — records staged changes as a snapshot with a message
+git push — uploads local commits
+do not commit node_modules because it is big and regenerateable from package.json
+commit package.json because it has the dependencies for your codebase
+
+
+feat - new feature
+fix - bug fix
+docs - documentation only
+style - formatting, whitespace, no logic change
+refactor - code change that's neither a fix nor a feature
+chore - build process, tooling, deps — no src change
