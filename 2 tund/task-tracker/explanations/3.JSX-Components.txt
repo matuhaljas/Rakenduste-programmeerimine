@@ -1,0 +1,15 @@
+// HTML-ish thinking (wrong in JSX)
+<div class="box" onclick="handleClick()"><br></div>
+
+// JSX
+<div className="box" onClick={handleClick}><br /></div>
+
+Lowercase (<div>, <button>) → treated as a built-in HTML element.
+Capitalised (<TaskCard>, <Header>) → treated as a custom component, and JSX looks for a variable/import of that name in scope.
+
+All tags must close — even ones that are self-closing in HTML
+
+Anything inside {} in JSX is evaluated as a JS expression — variables, function calls, ternaries, .map(), math, etc
+
+className — it maps directly to the DOM's class attribute.
+

@@ -1,0 +1,15 @@
+Controlled input — The input value comes from React state and onChange updates that state.
+
+event.target.value — Contains the current text entered in the input.
+
+onSubmit — Handles form submission in one place, including submissions made with Enter.
+
+preventDefault — Stops the browser from reloading the page after a form submission.
+
+Connected label — Use htmlFor on a label with a matching input id.
+
+Trimmed input — Call .trim() before submitting to remove surrounding whitespace.
+
+Validation — Reject empty or whitespace-only titles and show useful feedback.
+
+TaskForm — Call onAddTask with the trimmed title, then clear the input after a successful submission.

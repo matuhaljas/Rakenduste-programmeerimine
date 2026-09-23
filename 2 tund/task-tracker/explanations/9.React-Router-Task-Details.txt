@@ -1,0 +1,17 @@
+Client-side routing — Changes the displayed page without requesting a new document from the server.
+
+Router setup — Wrap the application in a router such as HashRouter to enable navigation.
+
+Routes and Route — Routes selects the matching Route and renders its element.
+
+Link and NavLink — Link navigates without a reload, while NavLink can style the active destination.
+
+BrowserRouter versus HashRouter — HashRouter keeps the route after the # and works reliably on GitHub Pages.
+
+Dynamic routes — A path such as /tasks/:taskId contains a variable URL segment.
+
+useParams — Reads route parameters, which are always strings.
+
+Unknown pages — Add a * route for missing paths and show a clear not-found message.
+
+Unknown tasks — Convert the task ID when needed and show a clear message when no task matches.

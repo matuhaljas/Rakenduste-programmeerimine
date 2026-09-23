@@ -1,0 +1,13 @@
+Rendering lists — Use .map() to turn each task object into a piece of JSX.
+
+Keys — React uses keys to identify list items between renders.
+
+Stable keys — A task ID is a suitable key because it stays connected to the same task.
+
+Filtering — Use .filter() to create a list containing only matching tasks.
+
+Filter state — Keep the selected all, completed or incomplete option in state.
+
+Derived data — Calculate the filtered list from existing state instead of storing a second copy.
+
+Empty results — Display No tasks found when the filtered list has no items.

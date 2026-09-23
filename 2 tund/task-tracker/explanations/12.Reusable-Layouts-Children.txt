@@ -1,0 +1,7 @@
+Component composition — Build larger interfaces by combining small reusable components.
+
+children prop — The children prop contains the JSX placed between a component's opening and closing tags.
+
+Reusable layout — A layout renders shared structure once and places page-specific content through children.
+
+Less duplication — Shared navigation and page wrappers stay in one component instead of being repeated.

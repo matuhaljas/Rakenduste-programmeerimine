@@ -1,0 +1,19 @@
+API — An API is an interface that lets one program request data or actions from another.
+
+Fetching JSON — Use fetch with async/await to request data and response.json() to read it.
+
+response.ok — Check response.ok and throw an error when the server response failed.
+
+useEffect — Synchronises a component with an external source such as a network request.
+
+Dependencies — The dependency array controls when an effect runs again.
+
+Cleanup — Cleanup can prevent an outdated request from updating the current UI.
+
+Request loops — Incorrect dependencies can cause an effect to request data repeatedly.
+
+UI states — Handle loading, error, success and empty results explicitly.
+
+Service file — Keep getTasks in src/services/taskApi.js so components do not contain request details.
+
+Local data — For now getTasks loads public/tasks.json; a later lesson will use the Node.js API.

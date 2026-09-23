@@ -1,0 +1,17 @@
+Development versus production — Development supports fast feedback, while production is the optimized version users receive.
+
+npm run build — Creates the production files in the dist directory.
+
+npm run preview — Serves the built dist files locally for testing.
+
+Vite base — Set base to the repository path so GitHub Pages can find assets.
+
+GitHub Actions — A workflow can build the app and publish the dist directory automatically.
+
+HashRouter — Hash-based URLs let GitHub Pages serve routes without backend rewrite support.
+
+Backend limitation — GitHub Pages serves static files and cannot run the future Express backend.
+
+Environment variables — Frontend variables are bundled for users to see, so they cannot contain secrets.
+
+Backend URL — The frontend will receive its backend URL through a public configuration value during integration.

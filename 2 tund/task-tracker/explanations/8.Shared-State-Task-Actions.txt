@@ -1,0 +1,17 @@
+Lifting state — Keep shared task state in the closest common parent.
+
+Props and callbacks — Pass task data down and pass callback functions down for child actions.
+
+Immutable state — Create new arrays and objects instead of modifying existing state directly.
+
+Adding tasks — Use spread syntax to append a new task to the existing array.
+
+Updating tasks — Use .map() to replace only the task that changed.
+
+Deleting tasks — Use .filter() to create an array without the deleted task.
+
+Functional updates — Use the setter callback when the new state depends on previous state.
+
+Task actions — TaskCard calls onToggle or onDelete with its task ID, and the parent updates the visible list.
+
+Unique IDs — Give new tasks unique integer IDs so React and the application can identify them reliably.

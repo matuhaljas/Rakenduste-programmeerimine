@@ -1,0 +1,12 @@
+passing data - Data only flows one direction — parent to child
+
+Receiving props w/ Destructuring - Instead of accessing props.title, props.done, etc. individually, destructure them straight in the function signature
+
+Passing strings, booleans and objects rules:
+    Strings can use plain quotes "..." or {} — both work, quotes are just conventional shorthand.
+    Everything else (numbers, booleans, arrays, objects, expressions) needs {} since it's JS, not a string.
+    Boolean shorthand: <TaskCard done /> is the same as <TaskCard done={true} />.
+
+props are read-only - React components must be pure functions with respect to their props - given the same props, they should always render the same output, with no side effects that mutate their inputs.
+
+Using different data with the same component - This is the whole point of props — one component definition, rendered multiple times with different data

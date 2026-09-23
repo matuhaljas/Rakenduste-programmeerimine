@@ -1,0 +1,15 @@
+onClick — Runs an event-handler function when an element is clicked.
+
+Passing versus calling — Pass handleClick to give React a function; handleClick() calls it immediately during rendering.
+
+State versus a variable — State changes trigger a re-render, while an ordinary variable does not.
+
+useState — Returns the current state value and a setter function that updates it.
+
+Previous state — Use setValue(previous => nextValue) when the next value depends on the previous one.
+
+Hook rules — Call Hooks at the top level of a component, not inside conditions, loops or nested functions.
+
+Conditional rendering — Use if statements, ternaries or && to decide which JSX is displayed.
+
+Completion toggle — Store completion in state and switch between Completed and Not completed with a button.
